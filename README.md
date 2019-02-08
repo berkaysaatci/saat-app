@@ -1,13 +1,23 @@
-# Mac için basit bir Zamanlayıcı uygulaması
+# A simple Timer app for Mac
 
-Bir zamanlayıcı ayarlamak için mavi oku sürükleyin. Başlamak için bırakın! Duraklatmak için tıklayın.
+<img src="/screenshots/timer.png?raw=true" width="262" align="right">
 
-Süre dolduğunda, güzel bir sesle bir bildirim görünecektir.
+[Download here](https://github.com/berkaysaatci/zamanlayici/releases)
 
-CMD + N ile yeni zamanlayıcılar oluşturun.
+Drag the blue arrow to set a timer. Release to start! Click to pause.
 
-Demlemek fıçısı aracılığıyla bir fıçı olarak takın michaelvillar-timer'ı kurun.
+When the time is up, a notification will show up with a nice sound.
 
-Yıllardır kullandığım Nitram-nunca'nın büyük Minutes widget'ından ilham aldı. Ama artık tutulmadı (retina olmayan) + benim kontrol panelimdeki tek widget oldu :)
+Create new timers with `CMD+N`.
 
-Zamanlayıcı macOS 10.11 veya daha yenisini gerektirir.
+Install as a [cask](https://caskroom.github.io) via `brew cask install michaelvillar-timer`.
+
+Inspired by the **great** [Minutes widget](http://minutes.en.softonic.com/mac) from Nitram-nunca I've been using for years. But it wasn't maintained anymore (non-retina) + it was the only widget in my dashboard :)
+
+Timer requires macOS 10.11 or later.
+
+### Build
+
+```
+make
+```
